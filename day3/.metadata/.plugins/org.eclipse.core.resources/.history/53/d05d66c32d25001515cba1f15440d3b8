@@ -1,0 +1,38 @@
+package methoddemo;
+
+public class Demo1 {
+
+	/**
+	 * @param args
+	 */ 
+	String name;
+	int age;
+	String address;
+	/*//无参默认构造方法
+	Demo1(){}*/
+	//有参构造方法
+	Demo1(String n,int a,String add){
+		name=n;
+		age=a;
+		address=add;
+	}
+	//自我介绍
+	void introduce(){
+		System.out.println("大家好，我叫"+name+"我今年"+age+"岁了，我家在"+address);
+	}
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		/*Demo1 person=new Demo1();//实例化一个demo对象
+		person.name="小明";
+		person.age=21;
+		person.address="合肥";*/
+		
+		Demo1 person=new Demo1("jim",21,"合肥");
+		
+		person.introduce();
+		//当没有构造方法时，系统会自动生成一个默认构造方法Demo1（）
+		//构造方法是一种比较特殊的方法：没有返回类型，方法名和类同名
+
+	}
+
+}

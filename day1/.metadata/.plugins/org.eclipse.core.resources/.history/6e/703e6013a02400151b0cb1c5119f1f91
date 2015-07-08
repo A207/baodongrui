@@ -1,0 +1,22 @@
+package workDemo;
+
+public class Exe03 {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		byte a1,a2,a3,a4,a5,a6;
+		a1=10;a2=-12;
+		a3=(byte)(a1+a2);
+		a4=(byte)(a1-a2);
+		a5=(byte)(a1*a2);
+		a6=(byte)(a1/a2);
+		
+		System.out.println(a3);System.out.println(a4);System.out.println(a5);System.out.println(a6);
+		
+
+	}
+
+}

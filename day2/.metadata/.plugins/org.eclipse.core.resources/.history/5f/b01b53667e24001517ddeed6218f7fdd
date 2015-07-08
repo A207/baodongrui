@@ -1,0 +1,24 @@
+package fordemo;
+//输出2~50之间的质数
+public class Lianxi1 {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		for(int num=2;num<=50;num++){
+			//判断num是否为质数
+			@SuppressWarnings("unused")
+			boolean flag=true;//默认num是质数
+			for(int i=2;i<num;i++){
+				if(num%i==0){
+					flag=false;
+					break;
+				}
+			}
+		}
+
+	}
+
+}

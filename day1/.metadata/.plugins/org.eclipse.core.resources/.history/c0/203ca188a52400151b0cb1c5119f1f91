@@ -1,0 +1,38 @@
+package workDemo;
+
+public class Exe03 {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		byte a1,a2,a3,a4,a5,a6;
+		a1=13;a2=-12;
+		a3=(byte)(a1+a2);
+		a4=(byte)(a1-a2);
+		a5=(byte)(a1*a2);
+		a6=(byte)(a1/a2);
+		
+		short b1,b2,b3,b4,b5,b6;
+		b1=108;b2=209;
+		b3=(short)(b1+b2);
+		b4=(short)(b1-b2);
+		b5=(short)(b1*b2);
+		b6=(short)(b2/b1);
+		
+		float c1,c2,c3,c4,c5,c6,c7;
+		c1=10.9f;c2=20.1f;//给float型变量赋值时后面要加f
+		c3=(float)(c1+c2);
+		c4=(float)(c2-c1);
+		c5=(float)(c1*c2);
+		c6=(float)(c2/c1);
+		c7=(float)(a1*a2);
+		
+		System.out.println(a3);System.out.println(a4);System.out.println(a5);System.out.println(a6);
+		System.out.println(b3);System.out.println(b4);System.out.println(b5);System.out.println(b6);
+		System.out.println(c3);System.out.println(c4);System.out.println(c5);System.out.println(c6);
+		System.out.println(c7);
+	}
+
+}

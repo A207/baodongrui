@@ -1,0 +1,19 @@
+package HelloWorld;
+//对类变量number的访问
+public class Demo1 {
+	static int number;//类变量number的定义,定义在类里面，在普通的成员变量前加static
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		//第一种方法：在main方法里做一个输出
+		int number=10;
+        System.out.println(Demo1.number);//访问方式：类名.属性名
+        //第二种方法：新创建类的对象，通过对象来访问类变量即类对象或类的实例来访问
+        Demo1 demo2=new Demo1();//新创建的当前类的对象
+        System.out.println(demo2.number);//访问方式：对象.属性名
+	}
+
+}
