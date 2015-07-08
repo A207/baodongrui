@@ -24,7 +24,6 @@ public class Demo1 {
 		person.name="小明";
 		person.age=21;
 		person.address="合肥";*/
-		System.out.println("lalala");
 		
 		Demo1 person=new Demo1("jim",21,"合肥");
 		
