@@ -31,12 +31,18 @@ public class Exe03 {
 		
 		double d1=50.9;
 		double d2=60.89;
+		double d3=d1*d2;
+		
+		long e1=1000;
+		long e2=8000;
+		long e3=e2/e1;//除了byte、short、float，其他类型数据进行运算时都可用“数据类型   f=g*/+-h”的形式表达
+		
 		
 		System.out.println(a3);System.out.println(a4);System.out.println(a5);System.out.println(a6);
 		System.out.println(b3);System.out.println(b4);System.out.println(b5);System.out.println(b6);
 		System.out.println(c3);System.out.println(c4);System.out.println(c5);System.out.println(c6);
 		System.out.println(c7);
-		System.out.println("d1*d2="+d1*d2);
+		System.out.println("d1"+d1+"*"+"d2"+d2+"="+d1*d2);
 	}
 
 }

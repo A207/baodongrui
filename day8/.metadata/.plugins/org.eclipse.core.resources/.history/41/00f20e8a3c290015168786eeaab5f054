@@ -1,0 +1,5 @@
+package com.baodongrui.tulingdemo;
+
+public interface HttpGetDataListener {
+
+}

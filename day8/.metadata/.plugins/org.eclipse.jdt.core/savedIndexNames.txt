@@ -1,0 +1,5 @@
+INDEX VERSION 1.126+E:\BaoDongRui\baodongrui\day8\.metadata\.plugins\org.eclipse.jdt.core
+2864549956.index
+3168551250.index
+3294267536.index
+2780222279.index

@@ -1,0 +1,7 @@
+package com.baodongrui.tulingdemo;
+
+import android.os.AsyncTask;
+
+public class HttpData extends AsyncTask<Params, Progress, Result> {
+
+}
